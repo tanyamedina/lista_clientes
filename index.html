@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex align-items-center justify-content-center bg-light text-dark" style="min-height: 100vh; position: relative;">
+
+    <div class="container">
+        <!-- Formulario centrado con marco, sombra y ancho fijo -->
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow p-4" style="border-radius: 10px;">
+                    <!-- Imagen en forma circular encima del texto -->
+                    <div class="text-center mb-4">
+                        <img src="DP1.jpeg" alt="Imagen de perfil" class="rounded-circle" width="100" height="100">
+                    </div>
+                    <h1 class="text-center mb-4" style="color: #256C6E">Iniciar Sesión</h1> <!-- Agregué más margen -->
+                    <form action="login.php" method="POST">
+                        <div class="form-group mb-4"> <!-- Más espacio entre campos -->
+                            <label for="username">Usuario</label>
+                            <input type="text" name="username" class="form-control" id="username" required>
+                        </div>
+                        <div class="form-group mb-4"> <!-- Más espacio entre campos -->
+                            <label for="password">Contraseña</label>
+                            <input type="password" name="password" class="form-control" id="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-info w-100">Ingresar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer con texto pequeño y centrado en la parte inferior de la pantalla -->
+    <footer class="position-absolute bottom-0 w-100 text-center">
+        <p class="text-secondary small mb-2"><em>@2024 Creado por: Tanya Medina </em></p> <!-- Más margen inferior -->
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    background-color: #ecf0f3; /* Gris claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el título "Clientes" */
+h1 {
+    color: whitesmoke; /* Color del texto */
+    background-color: #256c6e; /* Fondo azul Bootstrap */
+    font-size: 2.5rem; /* Tamaño del texto */
+    text-align: left; /* Centrado */
+    padding: 10px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #386e70; /* Borde alrededor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.349); /* Sombra ligera */
+    margin-bottom: 30px; /* Separación del contenido siguiente */
+}
+
+.h3-title {
+    color: whitesmoke; /* Color del texto */
+    background-color: #256c6e; /* Fondo azul Bootstrap */
+    font-size: 1.5rem; /* Tamaño del texto */
+    text-align: left; /* Centrado */
+    padding: 10px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid #386e70; /* Borde alrededor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.349); /* Sombra ligera */
+    margin-bottom: 30px; /* Separación del contenido siguiente */
+}
+
+/* Estilo para la tabla */
+#tabla-clientes {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif; /* Cambiar la fuente para hacerlo más divertido */
+}
+
+#tabla-clientes th, #tabla-clientes td {
+    border: 1px solid #5e5e5e;  /* Colores vibrantes */
+    padding: 10px;
+    text-align: left;
+    
+}
+#tabla-clientes th {
+    background-color: #c07a3d;  /* Encabezado con un color vibrante */
+    color: white;
+    text-transform: uppercase;  /* Mayúsculas para los encabezados */
+}
+
+/* Paginación de DataTables */
+.dataTables_paginate .paginate_button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #ABDADC;
+    border: none;
+    cursor: pointer;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background-color: #ABDADC;
+}
+
+.dataTables_wrapper .dataTables_length, 
+.dataTables_wrapper .dataTables_filter {
+    padding: 10px; /* Ajusta este valor según lo que necesites */
+}
+
+.dataTables_wrapper .dataTables_info, 
+.dataTables_wrapper .dataTables_paginate {
+    padding: 10px; /* Ajusta este valor según lo que necesites */
+}
+
+table.dataTable thead th.sorting:after,
+table.dataTable thead th.sorting_asc:after,
+table.dataTable thead th.sorting_desc:after {
+    content: none !important; /* Esto eliminará solo las flechas de ordenación */
+}
+
+/* Elimina los bordes que se aplican por defecto */
+.page-link {
+    border: none !important;
+    background-color: transparent !important;  /* Si necesitas eliminar completamente el fondo predeterminado */
+}
+
+/* Clase para el tono rosita del h3 con más especificidad */
+form h3.text-rosita {
+    color: #ff69b4 !important; /* Un tono de rosita */
+}
+
+/* Clase para el fondo gris personalizado con más especificidad */
+form div.bg-gris-personalizado {
+    background-color: #f0f0f5 !important; /* Un tono gris claro */
+    border: 1px solid #ccc !important;    /* Un borde gris suave */
+}
+
